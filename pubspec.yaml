@@ -1,0 +1,22 @@
+name: odia_jokes_app
+description: A simple Odia jokes app with Firebase and offline support.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.4.5
+  firebase_core: ^2.25.4
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/jokes.json
